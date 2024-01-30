@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CampingEquipmentRentalSystem" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#4C847B</item>
+        <item name="colorPrimaryVariant">#4C847B</item>
+        <item name="colorOnPrimary">#4C847B</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#4C847B</item>
+        <item name="colorSecondaryVariant">#4C847B</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#4C847B</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.CampingEquipmentRentalSystem.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.CampingEquipmentRentalSystem.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.CampingEquipmentRentalSystem.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
